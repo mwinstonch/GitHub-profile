@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.avatar {
+	border-radius: 3%;
+	width: 230px;
+	height: 230px;
+}
+
+body {
+	display: block;
+}
+
+.container {
+	text-align: center;
+}
+
+.contains-left {
+	text-align: left;
+	display: inline-block;
+}
+
+.contains-right {
+    margin-left: 0px;
+	width: 74vh;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.fake-menu {
+	display: inline-block
+}
+
+.fake-menu-div {
+	border-bottom: solid #675F5F 2px;
+	padding-right: 20px;
+	display:inline-block;
+}
+
+.fake-menu-middle {
+	border: solid #675F5F 2px;
+	border-bottom: solid #fff 4px;
+}
+
+#full-page {
+	display: block;
+}
+
+.head-contains {
+	margin-left: 23px;
+}
+
+.header {
+	margin-bottom: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.list {
+	vertical-align: middle;
+	display: block;
+	font-size: 14px;
+}
+
+.login {
+	font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+}
+
+
+.material-icons.md-18 {
+	font-size: 18px;
+
+}
+
+.name {
+	font-size: 26px;
+    line-height: 30px;
+}
+
+.prof-menu-left {
+
+}
+.repo-container {
+	margin-top: 15px;
+	display: block;
+}
+.search {
+	display: inline-block;
+}
+
+.tabs {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 14px;
+}
