@@ -3,8 +3,8 @@ console.log($)
 
 var baseURL = "https://api.github.com/users/"
 var profURL = baseURL + 'mwinstonch'
-var token = "access_token=4e138d16656aac0309a31416c71b72f436de61ea"
-var fullURL = profURL  + "?" + token
+//var token = "access_token=4e138d16656aac0309a31416c71b72f436de61ea"
+var fullURL = profURL  + "?" //+ token
 
 var searchBox = document.querySelector(".search")
 
@@ -13,7 +13,7 @@ var promise = function(url) {
 }
 
 
-var repoURL = profURL + '/repos' + '?' + token
+var repoURL = profURL + '/repos'// + '?' + token
 var userRepoPromise = $.getJSON(repoURL)
 
 var container = document.querySelector(".contains-left")
