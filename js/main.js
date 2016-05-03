@@ -41,7 +41,7 @@ var repoHTML = function(obj) {
 	var repoString = ""
 	var repoString = '<div class="repoDiv">\
 	    			 <span>' + obj.name + '</span>\
-                     <div class="rightRepo">JavaScript<i class="material-icons md-18">grade</i></div></div><HR>'
+                     <span class="rightRepo">JavaScript<i class="material-icons md-18">grade</i></span></div><HR>'
 	repoContainer.innerHTML = repoString
 	return repoString
 }
