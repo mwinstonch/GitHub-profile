@@ -28,6 +28,7 @@ body {
 	width: 74vh;
 	vertical-align: top;
 	display: inline-block;
+    margin-left: 3%;
 }
 
 .fake-menu {
@@ -91,15 +92,18 @@ body {
 }
 
 .repo-container {
-	width: 70%;
-	margin-top: 15px;
-	display: block;
+    margin-bottom: 4%;
+    margin-top: 15px;
+    display: block;
 }
 
 .repoDiv {
      text-align: left;
 }
 
+.rightRepo {
+    float: right;
+}
 .search {
 	display: inline-block;
 }
