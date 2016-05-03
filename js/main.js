@@ -40,18 +40,18 @@ var repoHTML = function(obj) {
 	console.log(obj)
 	var repoString = ""
 	var repoString = "<div class='repoDiv'>\
-	    			 <h2>" + obj.name + "</h2></div><HR>"
+	    			 <h3>" + obj.name + "</h3></div><HR>"
 	repoContainer.innerHTML = repoString
 	return repoString
 }
 
 var queryOnEnterKey = function(event) {
 	if(event.keyCode === 13) {
-		var inputEl = event.target 
+		var inputEl = event.target
 		var query = inputEl.value
 		window.location.hash = query
 		inputEl.value = ""
-	}	
+	}
 }
 
 
@@ -64,14 +64,14 @@ var changeUser = function(query){
     userRepoPromise.then(reposHTML)
 }
 
-var reposHTML = function(jsonData) { 
+var reposHTML = function(jsonData) {
 	var repoArray = jsonData
 	console.log(jsonData)
 	var totalHtmlString = ''
 	for(var i = 0; i < repoArray.length; i++){
 	    var repo = repoArray[i]
-	    console.log(repo) 
-	    totalHtmlString += repoHTML(repo) 
+	    console.log(repo)
+	    totalHtmlString += repoHTML(repo)
 	}
 	repoContainer.innerHTML = totalHtmlString
 }
@@ -79,7 +79,7 @@ var reposHTML = function(jsonData) {
 var controller = function(){
 	console.log(window.location.hash)
 	if (window.location.hash === "#home"){
-		document.querySelector('.container').innerHTML = "<h1> HOME PAGE 4 u </h1>" 
+		document.querySelector('.container').innerHTML = "<h1>HOME PAGE</h1>"
 	} else {
     var userName = window.location.hash.substring(1)
     changeUser(userName)
