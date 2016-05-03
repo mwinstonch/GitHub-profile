@@ -98,7 +98,10 @@ body {
 }
 
 .repoDiv {
-     text-align: left;
+    padding-top: 1%;
+    text-align: left;
+    height: 8vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
 }
 
 .rightRepo {
