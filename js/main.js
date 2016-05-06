@@ -27,8 +27,8 @@ var profileHTML = function(query) {
 		<h1 class="name">' + query.name + '</h1>\
 		<h2 class="login">' + query.login + '</h2>\
 		<HR>\
-		<span class="list"><i class="material-icons md-18">room</i>' + query.location + '</span>\
-		<span class="list"><i class="material-icons md-18">mail_outline</i>' + query.email + '</span>\
+		<span class="list"><i class="material-icons md-18">room</i> ' + query.location + '</span>\
+		<span class="list"><i class="material-icons md-18">mail_outline</i> ' + query.email + '</span>\
 		<HR>'
 	container.innerHTML = htmlString
 	return htmlString
@@ -40,7 +40,7 @@ var repoHTML = function(obj) {
 	var repoString = ""
 	var repoString = '<div class="repoDiv">\
 	    			 <span>' + obj.name + '</span>\
-                     <span class="rightRepo">JavaScript<i class="material-icons md-18">grade</i></span></div>'
+                     <span class="rightRepo">JavaScript <i class="material-icons md-18">grade</i></span></div>'
 	repoContainer.innerHTML = repoString
 	return repoString
 }

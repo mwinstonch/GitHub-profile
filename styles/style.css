@@ -63,6 +63,10 @@ body {
     border-bottom: 1px solid #e5e5e5;
 }
 
+input:focus {
+    outline: none !important;
+}
+
 .list {
     margin-top: 1%;
     margin-bottom: 2%;
@@ -110,6 +114,7 @@ body {
 
 .rightRepo {
     float: right;
+    font-size: 14px;
 }
 .search {
 	display: inline-block;
