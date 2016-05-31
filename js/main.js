@@ -79,7 +79,7 @@ var reposHTML = function(jsonData) {
 var controller = function(){
 	console.log(window.location.hash)
 	if (window.location.hash === "#home"){
-		document.querySelector('.container').innerHTML = "<h1>HOME PAGE</h1>"
+		document.querySelector('.container').innerHTML = "<h1>HOME PAGE</h1><h2>(search for GitHub users)</h2>"
 	} else {
     var userName = window.location.hash.substring(1)
     changeUser(userName)
